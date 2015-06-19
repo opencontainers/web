@@ -1,6 +1,6 @@
 # Install go if needed
 export HUGOROOT=$HOME/hugo
-export PATH=$PATH:$HUGOROOT/bin
+export PATH=$PATH:$HUGOROOT
 #export GOPATH=$DEPLOYMENT_SOURCE
 if [ ! -e "$HUGOROOT" ]; then
   HUGO_ARCHIVE=$HOME/tmp/hugo.zip
@@ -11,4 +11,4 @@ if [ ! -e "$HUGOROOT" ]; then
 fi
 
 # Create and store unique artifact name
-hugo
+hugo_0.14_windows_amd64.exe
