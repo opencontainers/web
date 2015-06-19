@@ -1,0 +1,16 @@
+baseurl = "http://www.opencontainer.org/"
+languageCode = "en-us"
+title = "Open Container Foundation"
+author = "Patrick Chanezon"
+copyright = "Copyright (c) 2015, Open Container Foundation;"
+canonifyurls = true
+paginate = 3
+theme = "material-design"
+
+# Needed by Theme demos in exampleSite.
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  github = "opencontainers" # optional
+#  headerCover = "images/headerCover.png" # optional
+#  footerCover = "images/footerCover.png" # optional
+#  googleAnalyticsUserID = "123" # optional
