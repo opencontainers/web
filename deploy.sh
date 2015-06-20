@@ -12,9 +12,9 @@ if [ ! -e "$HUGOROOT" ]; then
   unzip -o $HUGO_ARCHIVE -d $HUGOROOT
 fi
 
-$BASE_URL = "https://$WEBSITE_HOSTNAME"
+BASE_URL = "https://$WEBSITE_HOSTNAME"
 if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
-  $BASE_URL = "https://www.opencontainers.org"
+  BASE_URL = "https://www.opencontainers.org"
 fi
 
 # Create and store unique artifact name
