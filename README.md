@@ -10,7 +10,7 @@ password: Runc0pen
 
 In order to preview the website locally, [install Hugo](http://gohugo.io/overview/installing/), then in the directory where you checked out this project:
 ```
-hugo server
+hugo server  -w -v
 Web Server is available at http://127.0.0.1:1313/
 Press Ctrl+C to stop
 ```
