@@ -1,0 +1,18 @@
+ {{ partial "header.html" . }}
+
+ <div class="container">
+   <div class="content">
+     {{ range .Data.Pages }}
+         {{ if isset .Params "page" }}
+           {{ partial .Params.page . }}
+         {{ end }}
+     {{ end }}
+   <div class="section">
+ {{ partial "content.html" . }}
+
+ {{ partial "pagination.html" .Paginator }}
+
+   </div>
+ </div>
+
+ {{ partial "footer.html" . }}
