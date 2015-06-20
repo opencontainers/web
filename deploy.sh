@@ -12,5 +12,10 @@ if [ ! -e "$HUGOROOT" ]; then
   unzip -o $HUGO_ARCHIVE -d $HUGOROOT
 fi
 
+$BASE_URL = "https://$WEBSITE_HOSTNAME"
+if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
+  $BASE_URL = "https://www.opencontainers.org"
+fi
+
 # Create and store unique artifact name
-hugo_0.14_windows_amd64.exe -d $DEPLOYMENT_TARGET
+hugo_0.14_windows_amd64.exe --baseUrl $BASE_URL -d $DEPLOYMENT_TARGET
