@@ -1,5 +1,5 @@
 # Install go if needed
-export HUGOROOT=$HOME/hugo
+export HUGOROOT=$HOME/site/deployments/tools/hugo
 export PATH=$PATH:$HUGOROOT
 #export GOPATH=$DEPLOYMENT_SOURCE
 if [ ! -e "$HUGOROOT" ]; then
