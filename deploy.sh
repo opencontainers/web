@@ -18,4 +18,4 @@ if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
 fi
 
 # Create and store unique artifact name
-hugo_0.14_windows_amd64.exe --baseUrl $BASE_URL -d $DEPLOYMENT_TARGET
+hugo_0.14_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
