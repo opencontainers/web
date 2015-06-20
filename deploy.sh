@@ -1,5 +1,6 @@
 # Install go if needed
-export HUGOROOT=$HOME/site/deployments/tools/hugo
+TOOLS_ROOT_DIR=$HOME/site/deployments/tools
+export HUGOROOT=$TOOLS_ROOT_DIR/hugo
 export PATH=$PATH:$HUGOROOT
 #export GOPATH=$DEPLOYMENT_SOURCE
 if [ ! -e "$HUGOROOT" ]; then
@@ -8,7 +9,7 @@ if [ ! -e "$HUGOROOT" ]; then
   mkdir -p ${HUGO_ARCHIVE_DIR}
   curl -L https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_windows_amd64.zip -o $HUGO_ARCHIVE
   # This will take a while ...
-  unzip $HUGO_ARCHIVE -d $HOME
+  unzip $HUGO_ARCHIVE -d $TOOLS_ROOT_DIR
 fi
 
 # Create and store unique artifact name
