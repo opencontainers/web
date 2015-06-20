@@ -1,4 +1,4 @@
-baseurl = "http://www.opencontainer.org/"
+baseurl = "https://ocp-dev.azurewebsites.net"
 languageCode = "en-us"
 title = "Open Container Foundation"
 author = "Patrick Chanezon"
