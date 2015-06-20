@@ -5,6 +5,7 @@
 </div>
 <div class="row">
   {{ end }}
+  {{ if not (.Params.page) }}
   <div class="col m4 s12">
     <div class="card-panel">
       <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
@@ -26,5 +27,6 @@
       </p>
     </div>
   </div>
+{{ end }}
 {{ end }}
 </div>
