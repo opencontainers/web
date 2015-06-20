@@ -3,7 +3,7 @@ date = "2015-06-10T19:03:22-07:00"
 title = "About"
 +++
 
-The Open Container Project is open governance structure for the express purpose of creating a de jure container runtime standard.
+The Open Container Project is open governance structure for the express purpose of creating an open industry standard for container runtime.
 
 It has been announced June 20th 2015: [Press Release](http://fixme.com), [Blog Post](http://fixme.com).
 
