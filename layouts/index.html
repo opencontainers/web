@@ -11,9 +11,9 @@
  </div>
     <div class="section no-pad-bot">
       <div class="container" style="height:345px; padding-top:120px; text-align:center;">
-        <p style="color:#000000;"><b>Announcing</b> a new foundation,  supported by businesses around the world to bring standardization to software Containers.</p>
-        <div style="border: 20px solid #f0f93d; width:64px; height:64px; display:inline-flex;"></div><div style="color:#ffffff; display:inline-flex;font-family: Roboto; font-size: 36px; padding-left:16px; letter-spacing: .2rem;">OPEN CONTAINER FOUNDATION</div>
-        
+        <p style="color:#000000;"><b>Announcing</b> a new project,  supported by businesses around the world to bring standardization to software Containers.</p>
+        <div style="border: 20px solid #f0f93d; width:64px; height:64px; display:inline-flex;"></div><div style="color:#ffffff; display:inline-flex;font-family: Roboto; font-size: 36px; padding-left:16px; letter-spacing: .2rem;">OPEN CONTAINER PROJECT</div>
+
       </div>
     </div>
     <div class="parallax">
@@ -27,11 +27,15 @@
 <div class="container">
 
   	<div class="row" style="background-color:#ffffff; padding:24px; margin:0px">
-			<div style="display:inline-flex; width:30%; padding-right:24px;"><b>The Open Container 
-Project is … It has been announced June 20th 2015: [Press Release](), [Blog Post]().</b></div>
-			<div style="display:inline-flex; width:60%">The specification will be available at https://github.com/opencontainers/specs. The newly expanded team of maintainers (both original libcontainer maintainers and the appc maintainers) are busy preparing the first draft of the specification, and intend to release it in 2-3 weeks.
-
-Runc, the reference implementation of the OCP specification will be available at https://github.com/opencontainers/runc
+			<div style="display:inline-flex; width:30%; padding-right:24px;">
+        {{ range first 1 (where .Data.Pages  "Params.include" "index-1") }}
+          {{ .Content }}
+        {{ end }}
+  			</div>
+			<div style="display:inline-flex; width:60%">
+      {{ range first 1 (where .Data.Pages  "Params.include" "index-2") }}
+        {{ .Content }}
+      {{ end }}
 			</div>
  	</div>
  </div>
@@ -56,21 +60,9 @@ Runc, the reference implementation of the OCP specification will be available at
 <div style="border: 1px solid #ffffff; padding:18px; width:200px; display:inline-flex; color:#ffffff">News & Press</div>
 </div>
 <div style="display: inline-flex; width:49%; text-align:left; padding-right:36px;">
-6/9/2015
-Docker Launches Ecosystem Technology Partner Program to Monitor Distributed Apps
+6/20/2015
+Announcement Open Container Project
 <br /><br />
-4/14/2015
-Docker Secures $95M in Series D Funding to Meet Demand for Open Source Platform
-<br /><br />
-3/12/2015
-Docker Acquires Kitematic; the Fastest, Easiest Way to Run Docker on Mac
-</div>
-<div style="display: inline-flex; width:49%;text-align:left">
-3/10/2015
-Docker Names Iain Gray Senior Vice President of Customer Success
-<br /><br />
-3/4/2015
-Docker Acquires SocketPlane to Drive an Open Collaborative Networking Ecosystem
 	</div>
 
 </div>
