@@ -11,6 +11,6 @@ theme = "material-design"
 [params]
   DateForm = "Mon, Jan 2, 2006"
   github = "opencontainers" # optional
-#  headerCover = "images/headerCover.png" # optional
+  headerCover = "images/ocf_background_144.png" # optional
 #  footerCover = "images/footerCover.png" # optional
 #  googleAnalyticsUserID = "123" # optional

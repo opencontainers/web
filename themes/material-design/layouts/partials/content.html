@@ -5,7 +5,6 @@
 </div>
 <div class="row">
   {{ end }}
-  {{ if not (.Params.page) }}
   <div class="col m4 s12">
     <div class="card-panel">
       <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
@@ -14,7 +13,7 @@
         {{ range $index, $category := .Params.categories }}
           <a href="{{$baseurl}}/categories/{{ $category | urlize }}/">{{ $category }}</a>
         {{ end }}
-      {{end}}
+      {{end}} 
       </p>
       <p>{{ .Summary }}</p>
       <p>
@@ -23,10 +22,9 @@
         {{ range $index, $tag := .Params.tags }}
           <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
         {{ end }}
-      {{end}}
+      {{end}} 
       </p>
     </div>
   </div>
-{{ end }}
 {{ end }}
 </div>

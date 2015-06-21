@@ -24,6 +24,9 @@
           <h5 class="header col s12 light">{{.Site.Params.description}}</h5>
         </div>
         <div class="row center">
+        {{if .Site.Params.github}}
+          <a href="https://github.com/{{ .Site.Params.github }}"><img src="{{.Site.BaseURL}}/images/github2-dreamstale35.png"></a>
+        {{end}}
         {{if .Site.Params.facebook}}
           <a href="https://www.facebook.com/{{.Site.Params.facebook}}"><img src="{{.Site.BaseURL}}/images/facebook-dreamstale25.png"></a>
         {{end}}
@@ -33,7 +36,7 @@
         {{if .Site.Params.gplus}}
           <a href="https://google.com/+{{.Site.Params.gplus}}"><img src="{{.Site.BaseURL}}/images/gplus48x48.png"></a>
         {{end}}
-<!--          <a href="{{.Site.BaseURL}}/index.xml"><img src="{{.Site.BaseURL}}/images/feed-dreamstale27.png"></a> -->
+          <a href="{{.Site.BaseURL}}/index.xml"><img src="{{.Site.BaseURL}}/images/feed-dreamstale27.png"></a>
         </div>
       </div>
     </div>
