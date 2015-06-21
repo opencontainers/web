@@ -8,6 +8,8 @@ username:ocp-reader@metadocker.onmicrosoft.com
 password: Runc0pen
 ```
 
+Content for the website is in markdown format in the content directory.
+
 In order to preview the website locally, [install Hugo](http://gohugo.io/overview/installing/), then in the directory where you checked out this project:
 ```
 hugo server  -w -v
