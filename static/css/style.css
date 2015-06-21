@@ -12,6 +12,10 @@ p {
   color: #26a69a;
 }
 
+.logogrid {
+   padding-right:32px;display:inline-flex;
+}
+
 .parallax-container {
   min-height: 580px;
   line-height: 0;
