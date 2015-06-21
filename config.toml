@@ -1,8 +1,8 @@
 baseurl = "https://www.opencontainers.org"
 languageCode = "en-us"
-title = "Open Container Foundation"
+title = "Open Container Project"
 author = "Patrick Chanezon"
-copyright = "Copyright (c) 2015, Open Container Foundation;"
+copyright = "Copyright (c) 2015, Linux Foundation;"
 canonifyurls = true
 paginate = 3
 theme = "material-design"
