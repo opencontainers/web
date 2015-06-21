@@ -15,7 +15,7 @@ Docker is donating its container format and runtime, runC, to the OCP to serve a
 
 The following organizations are sponsors of the Open Container Project:
 
-* Appcera
+* Apcera
 * AWS
 * Cisco
 * CoreOS

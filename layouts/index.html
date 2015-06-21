@@ -46,7 +46,7 @@
           {{ .Content }}
         {{ end }}
   			</div>
-			<div style="display:inline-flex; width:60%">
+			<div style="display:inline-flex; flex-direction:column;width:60%">
       {{ range first 1 (where .Data.Pages  "Params.include" "index-2") }}
         {{ .Content }}
       {{ end }}
