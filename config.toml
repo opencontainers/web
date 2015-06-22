@@ -13,4 +13,4 @@ theme = "material-design"
   github = "opencontainers" # optional
   headerCover = "images/ocf_background_144.png" # optional
 #  footerCover = "images/footerCover.png" # optional
-#  googleAnalyticsUserID = "123" # optional
+  googleAnalyticsUserID = "UA-64352818-1" # optional

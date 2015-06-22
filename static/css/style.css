@@ -1,4 +1,12 @@
 /* Custom Stylesheet */
+#lfcollabprojects-logo {
+  margin-top: 10px;
+  height: 14px;
+  background: transparent url("/images/lfcollabprojects_logo_color.png") no-repeat 10px center;
+  width: 100%;
+  max-width: 400px;
+  float: left;
+}
 
 nav ul a,
 nav .brand-logo {
