@@ -94,6 +94,12 @@ a.navlinkindex:hover {
   padding-bottom:36px;
 }
 
+.footerRowVertical {
+  display:flex;
+  margin: auto;
+  align-content:center;
+}
+
 @media only screen and (max-width : 600px) {
 #logogridsection {
   display:none;
