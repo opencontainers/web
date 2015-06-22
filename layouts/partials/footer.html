@@ -1,12 +1,25 @@
-  <footer class="page-footer">
-    <div class="container">
-      <div style="border: 12px solid #f0f93d; width:36px; height:36px; display:inline-flex;"></div><div style="color:#ffffff; display:inline-flex;font-family: Roboto; font-size: 18px; padding-left:16px; letter-spacing: .1rem;"><a href="{{.Site.BaseURL}}/">OPEN CONTAINER FOUNDATION</a></div>
+  <footer class="page-footer" style="min-height:300px;">
+    <div class="Center-Container">
+      <div class="rowVertical" style="height:60px;">
+      <div class="rowVertical cellLeft"><img src="{{.Site.BaseURL}}/images/ocp_icon-02_white-02.svg" height="64"></div>
+      <div class="rowVertical cellLeft" style="color:#ffffff; font-family: Roboto; font-size: 18px; padding-left:16px; letter-spacing: .1rem;"><a class="navlinkfooter" href="{{.Site.BaseURL}}/">OPEN CONTAINER FOUNDATION</a></div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-
+  </div>
+    <div class="Center-Container">
+      <div class="rowVertical" style="height:80px;">
+     <div style="display:inline-flex; padding-top: 48px; padding-left: 50px; padding-right:48px;">
+         <a class="navlinkfooter" style="padding-right:24px;" href="{{.Site.BaseURL}}/about">About</a>
+         <a class="navlinkfooter" style="padding-right:24px;" href="{{.Site.BaseURL}}/faq">FAQ</a>
+         <a class="navlinkfooter" style="padding-right:24px;" href="{{.Site.BaseURL}}/charter">Charter</a>
+      </div>
+    </div>
+  </div>
+    <div class="footer-copyright" style="background-color:#546473;">
+      <div class="Center-Container">
+      <div class="rowVertical" style="height:80px;">
       {{.Site.Copyright}}
       </div>
+    </div>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

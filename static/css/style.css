@@ -8,12 +8,70 @@ p {
   line-height: 1.5rem;
 }
 
+a:hover {
+  color:#632aff;
+}
+
+a.navlinkfooter, a.navlinkindex {
+   color:#ffffff;
+}
+
+a.navlinkfooter:hover{
+   color:#30b9e9;
+}
+
+a.navlinkindex:hover {
+  color:#f0f93d;
+}
+
 .button-collapse {
   color: #26a69a;
 }
 
 .logogrid {
-   padding-right:32px;display:inline-flex;
+   padding-right:28px;
+   padding-bottom:16px;
+   display:inline-flex;
+   width:100px;
+}
+
+.Center-Container {
+  display:flex;
+  position: relative;
+}
+
+.rowVertical {
+  display:flex;
+  overflow: auto;
+  margin: auto;
+  align-content:center;
+}
+
+@media only screen and (max-width : 600px) {
+#logogridsection {
+  display:none;
+}
+
+#indexcontent {position:relative;top:220px}
+}
+
+.parallax img {
+  position:absolute;
+  left:50%;
+  bottom:115px;
+  min-width:100%;
+  min-height:65%;
+  -webkit-transform:translate3d(0, 0, 0);
+  transform:translate3d(0, 0, 0);
+  transform:translateX(-50%);
+}
+
+#indexcol1 { display:inline-flex; flex-direction:column; width:30%; padding-right:24px;}
+#indexcol2 { display:inline-flex; flex-direction:column; width:60%;}
+
+@media only screen and (max-width : 600px) {
+#indexcol1 { display:flex;padding-right:24px;width:100%;}
+#indexcol2 { display:flex;width:100%;}
 }
 
 .parallax-container {
@@ -49,7 +107,14 @@ h4 {font-size:18px; line-height:1.4rem;}
   padding: 0 15px;
 }
 
+
 footer.page-footer {
+  background-image: none;
+  margin: 0;
+  background-color:#546473;
+}
+footer.footer-copyright{
+  background-image: none;
   margin: 0;
   background-color:#546473;
 }
