@@ -32,7 +32,7 @@ We expect that the formal documents for the project will be created and signed i
 
 **6.What is Docker doing to help create this foundation?**
 
-Docker is donating both a draft specification for the base format and runtime and the code  associated with a reference implementation of that specification, to the OCP. Docker has taken the entire contents of the libcontainer project (https://github/docker/libcontainer), including nsinit, and all modifications needed to make it run independently of Docker,  and donated it to this effort. This codebase, called runC, can be found at https://github/opencontainers/runc. libcontainer will cease to operate as a separate project.
+Docker is donating both a draft specification for the base format and runtime and the code  associated with a reference implementation of that specification, to the OCP. Docker has taken the entire contents of the libcontainer project (https://github.com/docker/libcontainer), including nsinit, and all modifications needed to make it run independently of Docker,  and donated it to this effort. This codebase, called runC, can be found at https://github.com/opencontainers/runc. libcontainer will cease to operate as a separate project.
 
 **7. Who will be the initial technical leadership?**
 
