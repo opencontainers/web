@@ -1,3 +1,7 @@
+body {
+  font-family: "Helvetica Neue", arial;
+}
+
 /* Custom Stylesheet */
 #lfcollabprojects-logo {
   margin-top: 10px;
@@ -61,7 +65,6 @@ a.newslink:hover {
    -ms-flex-direction:row;
   -ms-flex-wrap: wrap;
   -ms-justify-content: center;
-  height:100px;
   width:100%;
   background-color:#ffffff;
   padding:12px;
@@ -167,17 +170,16 @@ padding-right:24px;}
   width:100%;}
 }
 
-.parallax-container {
-  min-height: 580px;
+/*.parallax-container {
+  min-height: 1000px;
   line-height: 0;
-  height: auto;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
     max-width : 1280px
   }
-
+*/
 @media only screen and (max-width : 980px) {
   .parallax-container .section {
     position: absolute;
@@ -210,4 +212,49 @@ footer.footer-copyright{
   background-image: none;
   margin: 0;
   background-color:#546473;
+}
+
+.page-title {
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto;
+  display: inline;
+}
+
+.page-title .icon {
+  width: 40px;
+  height: 40px;
+  display: inline;
+  margin-right: 1rem;
+  position: relative;
+  top: 0.8rem;
+}
+
+.page-title .text {
+  display: inline;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.navlinks {
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.navlinks .navlinkindex {
+  margin-right: 1rem;
+}
+
+.page-desc {
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.container-bg {
+  max-height: 500px;
+  background: #8e9cff url("/images/ocf_background_144.png") no-repeat 50% center;
 }
