@@ -111,10 +111,9 @@ The Linux Foundation is a nonprofit consortium dedicated to fostering the growth
 
 **Additional Information**
 
-*	Blog - [OCP Runtime](http://blog.docker.com/)
-*	Blog - [OCP](http://blog.docker.com/)
+*	Blog - [OCP Runtime](http://blog.docker.com/2015/06/open-container-project-runtime/)
+*	Blog - [OCP](http://blog.docker.com/2015/06/open-container-project-foundation)
 *	[OCP Website](http://www.opencontainers.org)
-
 
 
 ---
