@@ -36,6 +36,14 @@ a.navlinkindex:hover {
   color:#f0f93d;
 }
 
+a.newslink {
+  color:#ffffff;
+}
+
+a.newslink:hover {
+  color:#f0f93d;
+}
+
 .button-collapse {
   color: #26a69a;
 }
