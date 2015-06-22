@@ -1,10 +1,9 @@
 
  {{ partial "header_index.html" . }}
- <div style="display:inline-flex;flex-direction:column;">
- <div style="background-color: rgba(255,255,255,1);">
-   <a id="lfcollabprojects-logo" href="http://collabprojects.linuxfoundation.org"></a>
- </div>
- <div id="logogridsection" class="section no-pad-bot" style="text-align:center; position:relative; left:0%; padding-left:55px; background-color:#ffffff;">
+
+
+<div class="Center-Container">
+      <div class="gridContainer">
 
 	      <div class="logogrid"><img src="{{.Site.BaseURL}}/images/logos/AmazonWebservices_Logo.svg" height="28px"></div>
 	      <div class="logogrid"><img src="{{.Site.BaseURL}}/images/logos/Apcera-logo-dark.png" height="28px"></div>
@@ -27,6 +26,7 @@
 	      <div class="logogrid"><img src="{{.Site.BaseURL}}/images/logos/rancher_logo.png" height="28px"></div>
 	      <div class="logogrid"><img src="{{.Site.BaseURL}}/images/logos/red-hat-logotype.svg" height="28px"></div>
 	      <div class="logogrid"><img src="{{.Site.BaseURL}}/images/logos/Vmware.svg" height="18px"></div>
+      </div>
  </div>
 
  <div class="Center-Container">
@@ -57,26 +57,29 @@
     {{end}}
     </div>
 
-<div class="container" id="indexcontent">
-  	<div class="row" style="background-color:#ffffff; padding-left:36px;padding-top:24px;">
-			<div id="indexcol1">
-        {{ range first 1 (where .Data.Pages  "Params.include" "index-1") }}
-          {{ .Content }}
-        {{ end }}
-  			</div>
-			<div id="indexcol2">
-      {{ range first 1 (where .Data.Pages  "Params.include" "index-2") }}
-        {{ .Content }}
-      {{ end }}
-			</div>
- 	</div>
- </div>
+
+<div class="Center-Container">
+      <div class="rowVertical" style="width:1000px; background:#ffffff">
+        <div class="textColumn cellLeft">
+          {{ range first 1 (where .Data.Pages  "Params.include" "index-1") }}
+            {{ .Content }}
+          {{ end }}
+      </div>
+        <div class="textColumn cellLeft">
+          {{ range first 1 (where .Data.Pages  "Params.include" "index-2") }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+
 
 
 
 <div class="section no-pad-bot" style="background-color:#eef1ff; padding-bottom:48px;">
 <div class="row" style="text-align:center; margin:48px;">
-<div style="border: 1px solid #546473; padding:18px; width:260px; display:inline-flex; background-color:#ffffff;text-align:center;">Ask a question about the project</div>
+<div style="border: 1px solid #546473; padding:18px; width:260px; display: -webkit-inline-flex; display: -ms-inline-flexbox; display:inline-flex; background-color:#ffffff;text-align:center;">Ask a question about the project</div>
 <br/><br/>
 <a href="mailto:info@opencontainers.org" style="width:200px;">info@opencontainers.org</a>
 </div>
@@ -84,7 +87,7 @@
 <div class="section no-pad-bot" style="background-color:#8e9cff;">
 <div class="container" style="text-align:center; padding-bottom:48px;">
 <div class="row" style="text-align:center; padding-top:36px;">
-<div style="border: 1px solid #ffffff; padding:18px; width:200px; display:inline-flex; color:#ffffff;text-align:center">News & Press</div>
+<div style="border: 1px solid #ffffff; padding:18px; width:200px; display: -webkit-inline-flex; display: -ms-inline-flexbox; display:inline-flex; color:#ffffff;text-align:center">News & Press</div>
 </div>
 <div style="display: inline-flex; width:49%; text-align:left; padding-right:36px;">
 6/20/2015&nbsp;
