@@ -36,23 +36,62 @@ a.navlinkindex:hover {
   color: #26a69a;
 }
 
+.gridContainer {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction:row; 
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-direction:row; 
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+   -ms-flex-direction:row; 
+  -ms-flex-wrap: wrap;
+  -ms-justify-content: center;
+  height:100px;
+  width:100%;
+  background-color:#ffffff;
+  padding:12px;
+
+}
+
 .logogrid {
-   padding-right:28px;
-   padding-bottom:16px;
-   display:inline-flex;
-   width:100px;
+   padding-right:20px;
+   padding-bottom:12px;    
 }
 
 .Center-Container {
   display:flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   position: relative;
 }
 
 .rowVertical {
-  display:flex;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   overflow: auto;
   margin: auto;
-  align-content:center;
+  align-content: center;
+}
+
+
+
+
+.textColumn {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-flex-direction: column; 
+  -ms-flex-direction: column; 
+  flex-direction:column; 
+  overflow: auto;
+  padding-top:24px;
+  padding-right:36px;
+  padding-left:36px;
+  padding-bottom:36px;
 }
 
 @media only screen and (max-width : 600px) {
@@ -74,12 +113,35 @@ a.navlinkindex:hover {
   transform:translateX(-50%);
 }
 
-#indexcol1 { display:inline-flex; flex-direction:column; width:30%; padding-right:24px;}
-#indexcol2 { display:inline-flex; flex-direction:column; width:60%;}
+
+
+#indexcol1 { 
+  display:inline-flex; 
+    display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+flex-direction:column; 
+width:30%; 
+padding-right:24px;}
+
+#indexcol2 { 
+  display:inline-flex; 
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  flex-direction:column; 
+  width:60%;}
 
 @media only screen and (max-width : 600px) {
-#indexcol1 { display:flex;padding-right:24px;width:100%;}
-#indexcol2 { display:flex;width:100%;}
+#indexcol1 { 
+  display:flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  padding-right:24px;
+  width:100%;}
+#indexcol2 { 
+  display:flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  width:100%;}
 }
 
 .parallax-container {
