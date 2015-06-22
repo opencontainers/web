@@ -8,6 +8,10 @@
   float: left;
 }
 
+.card-panel > ul li {
+  list-style: disc;
+  margin-left: 1.5em;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -82,6 +86,12 @@ a.navlinkindex:hover {
 
 #indexcol1 { display:inline-flex; flex-direction:column; width:30%; padding-right:24px;}
 #indexcol2 { display:inline-flex; flex-direction:column; width:60%;}
+#indexcol2 ul li {
+  list-style-type: disc;
+}
+#indexcol2 ul {
+  padding-left: 10px;
+}
 
 @media only screen and (max-width : 600px) {
 #indexcol1 { display:flex;padding-right:24px;width:100%;}
