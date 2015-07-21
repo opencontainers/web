@@ -5,7 +5,7 @@ title = "Community Rallies Behind Open Container Initiative"
 
 *Nearly 20 new companies join project. Draft specification and charter open for comments*
 
-**PORTLAND, Ore., O’Reilly’s Open Source Conference (OSCON), July 220, 2015 -**
+**PORTLAND, Ore., O’Reilly’s Open Source Conference (OSCON), July 22, 2015 -**
 
 
 **About the Linux Foundation**  
