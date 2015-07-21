@@ -44,4 +44,5 @@ The following organizations are sponsors of the Open Container Initiative:
 * Rancher
 * Red Hat
 * Sysdig
+* Twitter
 * VMWare
