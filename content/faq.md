@@ -18,11 +18,11 @@ Users can fully commit to container  technologies today without worrying that th
 
 **3. What is the connection between this and the appc effort?**
 
-The individuals behind the appc effort are joining the technical leadership of the OCP, and our intention is to work towards both a common format that is compatible with existing container formats as well as to work on a future spec that combines the best elements of all the existing container efforts.
+The individuals behind the appc effort are joining the technical leadership of the OCI, and our intention is to work towards both a common format that is compatible with existing container formats as well as to work on a future spec that combines the best elements of all the existing container efforts.
 
-**4. What is the timeline under which the project will be fully formed?**
+**4. What is the timeline under which the initiative will be fully formed?**
 
-We expect that the formal documents for the project will be created and signed in a matter of a couple of months. (Part of the rationale for doing this as project under the Linux Foundation is to minimize the time spent establishing formal governance and structure.) However, the repositories have already been migrated to https://github.com/opencontainers and are free for people to begin making contributions. The newly united group of former libcontainer and appc maintainers hope to produce a draft specification in a matter of weeks.
+We expect that the formal documents for the initiative will be created and signed in a matter of a couple of months. (Part of the rationale for doing this as project under the Linux Foundation is to minimize the time spent establishing formal governance and structure.) However, the repositories have already been migrated to https://github.com/opencontainers and are free for people to begin making contributions. The newly united group of former libcontainer and appc maintainers hope to produce a draft specification in a matter of weeks.
 
 **5. What are the drivers for this  container specification?**
 
@@ -32,25 +32,25 @@ We expect that the formal documents for the project will be created and signed i
 
 **6.What is Docker doing to help create this foundation?**
 
-Docker is donating both a draft specification for the base format and runtime and the code  associated with a reference implementation of that specification, to the OCP. Docker has taken the entire contents of the libcontainer project (https://github.com/docker/libcontainer), including nsinit, and all modifications needed to make it run independently of Docker,  and donated it to this effort. This codebase, called runC, can be found at https://github.com/opencontainers/runc. libcontainer will cease to operate as a separate project.
+Docker is donating both a draft specification for the base format and runtime and the code  associated with a reference implementation of that specification, to the OCI. Docker has taken the entire contents of the libcontainer project (https://github.com/docker/libcontainer), including nsinit, and all modifications needed to make it run independently of Docker,  and donated it to this effort. This codebase, called runC, can be found at https://github.com/opencontainers/runc. libcontainer will cease to operate as a separate project.
 
 **7. Who will be the initial technical leadership?**
 
 The initial technical leadership will be the current maintainers of libcontainer, a group that comprises individuals from Docker, Red Hat, and Google, as well as two independent developers. They will be joined in this effort by two prominent appc maintainers, making this initial list : Michael Crosby (Docker, @crosbymichael), Rohit Jnagal (Google,@rgnagal), Victor Marmol (Google, @vmarmol), Mrunal Patel (Red Hat, @mrunalp), Alexandr Morozov (Docker, @LK4D4), Daniel Minh (independent, @dqminh), Tianon Gravi (independent, @tianon), Brandon Philips (CoreOS @philips), and Vincent Batts (Red Hat @vbatts).  Of course, we look forward to growing both the contributor and maintainer list in the weeks and years to come.
 
-**8. What are the commitments of all founding signatories of the OCP?**
+**8. What are the commitments of all founding signatories of the OCI?**
 
-All Signatories (including Docker ) will also commit financial resources to create & fund the OCP and agree to work together to promote the OCF standard.
+All Signatories (including Docker ) will also commit financial resources to create & fund the OCI and agree to work together to promote the OCF standard.
 
-**9. What is the mission of the OCP?**
+**9. What is the mission of the OCI?**
 
-The mission of the OCP is to promote and promulgate a set of common, minimal, open  standards and specifications around container technology.
+The mission of the OCI is to promote and promulgate a set of common, minimal, open  standards and specifications around container technology.
 
-**10.  How broad is the mission of the OCP**
+**10.  How broad is the mission of the OCI**
 
 It is intentionally limited. We are not trying to define a large stack, become a big marketing organization, throw large conferences, etc. We are focussed on container format and runtime, areas where stability and standardization are more important, so that we can allow innovation to happen around us. To use an analogy, we are agreeing on the width of the train tracks, so we can all go off individually and try to build the fastest engines.
 
-**11.  What are the top specific duties of the OCP?**
+**11.  What are the top specific duties of the OCI?**
 
 * Creating a formal specification for container image formats and runtime, which will allow a compliant container to be portable across all major, compliant operating systems and platforms without artificial technical barriers.
 * Accepting, maintaining and advancing the projects associated with these standards (the “Projects”). It will look to agree on a standard set of container actions (start, exec, pause,....) as well as runtime environment associated with container runtime.
@@ -69,7 +69,7 @@ It is intentionally limited. We are not trying to define a large stack, become a
 
 You will note that a lot of these are directly adopted from the appc founding values. We want to make sure that this effort combines the best ideas from all existing efforts in this space..
 
-**13. What are the governing principles of the OCP?**
+**13. What are the governing principles of the OCI?**
 
 * Technology leadership
 * Influence through contribution.
@@ -80,13 +80,13 @@ You will note that a lot of these are directly adopted from the appc founding va
 
 **14.  What is the legal structure?**
 
-* The OCP will be run under the auspices of the Linux Foundation. It is intended to be lightweight, with three layers of leadership: The Technical Leadership, a Technical Oversight Board, and the Linux Foundation itself.
-* The most important functions are done by the Technical Leadership of the project, who are the maintainers of OCP (described above).
+* The OCI will be run under the auspices of the Linux Foundation. It is intended to be lightweight, with three layers of leadership: The Technical Leadership, a Technical Oversight Board, and the Linux Foundation itself.
+* The most important functions are done by the Technical Leadership of the project, who are the maintainers of OCI (described above).
 * There will be a technical oversight board (TOB), composed of vendor-neutral individuals who will provide oversight of the technical leadership and serve as a point of appeal. But, it is assumed that the technical leadership will do the right thing. We are not creating a structure for sponsors of the project to pay for the right to influence the technical direction of the  project.  Influence comes through code contribution.
 * Finally most of administrative and fiduciary duties and responsibilities are provided by the Linux Foundation, including:
   * Normal fiduciary responsibilities associated with the board of any foundation (approving budgets, auditing financials, etc.).
   * Setting policies for trademark enforcement
-  * Appointing a director for OCP if necessary
+  * Appointing a director for OCI if necessary
   * Serving as a point of appeal if there are formal complaints about the TOB or technical leadership of the Projects failing to follow its established technical governance procedure
 
 **15. What are the responsibilities of the technical oversight board?**
@@ -95,6 +95,6 @@ You will note that a lot of these are directly adopted from the appc founding va
 * Reviewing the tests established by the technical leadership for adherence to specification
 * Reviewing any policies or procedures established by the technical leadership.
 
-**16. OCP vs. OCF. What’s the difference?**
+**16. OCI vs. OCF. What’s the difference?**
 
-The project itself is referred to by the acronym “OCP” or open container project. The container format is OCF or “Open Container Format.” To avoid confusion with other named OCP projects, we are exploring alternative names.
+The initiative itself is referred to by the acronym “OCI” or open container initiative. The container format is OCF or “Open Container Format.”

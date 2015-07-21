@@ -11,4 +11,4 @@ In the past two years, there has been rapid growth in both interest in and usage
 
 The specification will be available at [https://github.com/opencontainers/specs](https://github.com/opencontainers/specs). The newly expanded team of maintainers (both original libcontainer maintainers and the appc maintainers) are busy preparing the first draft of the specification, and intend to release it in 2-3 weeks.
 
-Docker is donating its container format and runtime, runC, to the OCP to serve as the cornerstone of this new effort. It is available now  at [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc).
+Docker is donating its container format and runtime, runC, to the OCI to serve as the cornerstone of this new effort. It is available now  at [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc).
