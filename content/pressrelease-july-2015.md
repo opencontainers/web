@@ -73,7 +73,7 @@ The Linux Foundation is a nonprofit consortium dedicated to fostering the growth
 The Linux Foundation and Linux Standard Base are trademarks of The Linux Foundation. Linux is a trademark of Linus Torvalds.
 
 **Media Contact**  
-Jennifer Cloer
-The Linux Foundation
-503-867-2304
-[Jennifer@Linuxfoundation.org](mailto:Jennifer@Linuxfoundation.org)
+Jennifer Cloer  
+The Linux Foundation  
+503-867-2304  
+[Jennifer@Linuxfoundation.org](mailto:Jennifer@Linuxfoundation.org)  
