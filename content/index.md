@@ -21,8 +21,10 @@ Docker is donating its container format and runtime, runC, to the OCI to serve a
 The following organizations are sponsors of the Open Container Initiative:
 
 * Appcera
+* AT&T
 * AWS
 * Cisco
+* ClusterHQ
 * CoreOS
 * Datera
 * Docker
@@ -36,13 +38,20 @@ The following organizations are sponsors of the Open Container Initiative:
 * Intel
 * Joyent
 * Kismatic
+* Kyup
 * Pivotal
 * Polyverse
 * the Linux Foundation
 * Mesosphere
+* Midokura
 * Microsoft
+* Nutanix
+* Oracle
 * Rancher
 * Red Hat
+* Resin.io
+* Suse
 * Sysdig
 * Twitter
+* Verizon
 * VMWare
