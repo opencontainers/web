@@ -7,6 +7,14 @@
   <link href="{{.Site.BaseURL}}/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{.Site.BaseURL}}/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css">
+  {{ if eq .Title "Charter" }}
+  <style>
+  .card-panel > ul li {
+    list-style-type: none;
+    margin-left: 1.5em;
+  }
+  </style>
+{{ end }}
 </head>
 <body>
   <div id="header-banner">
