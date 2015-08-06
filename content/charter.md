@@ -15,7 +15,7 @@ The Open Container Initiative does not seek to be a marketing organization, defi
 
 * a.	The Open Container Initiative shall be composed of:
   * i.	corporate members sponsoring the activities of the community and a certification program (OCI Members) through a Trademark Board;
-  * ii.	an open source, Technical Developer Community, open to any participant, whether an OCI Member or not; and
+  * ii.	open source Technical Developer Communities, open to any participant, whether an OCI Member or not; and
   * iii.	a Technical Oversight Board.
 * b.	OCI Members shall be entitled to:
   * i.	participate in OCI Trademark Board meetings, OCI initiatives, and any other activities sponsored by the OCI;
@@ -43,45 +43,45 @@ The OCI maintains a collection of projects around open containers.  For example,
 * g.	Any issues that cannot be resolved by the Trademark Board shall be referred to The Linux Foundation for resolution.
 * h.	For avoidance of doubt, OCI membership does not convey any rights to directly influence the technical direction of the project. That influence will come through code contribution.
 
-**5.	Technical Developer Community (“TDC”)**
+**5.	Technical Developer Communities (“TDCs”)**
 
-* a.	The OCI has established a technical project for an open source Technical Developer Community. The TDC shall be open to any developer, end user or subject matter expert that chooses to participate in the activities of OCI, regardless of whether the participant is employed by an OCI Member company.
-* b.	The TDC has an established scope of work focused on:
-  * i.	Ensuring OCI Projects incorporate and align to the OCI Values;
-  * ii.	Accepting, maintaining and advancing OCI Projects;
-    * 1.	The TDC will look to agree on a standard set of container actions (e.g. start, exec, pause) as well as runtime environment associated with the container runtime;
-  * iii.	Creating and maintaining test cases that shall serve as the testing functions for achieving certification as an OCI Certified Solution.
-  * iv.	Engaging end users for feedback or input on OCI Projects, including, but not limited to, usability;
-  * v.	Ensuring all OCI Projects follow and adhere to the OCI IP Policy;
-  * vi.	Approving releases of OCI Projects;
+* a.	The OCI has established a technical project for open source Technical Developer Communities. TDCs shall be open to any developer, end user or subject matter expert that chooses to participate in the activities of OCI, regardless of whether the participant is employed by an OCI Member company.
+* b.	Each TDC has an established scope of work focused on a particular OCI Project, and there will only be one TDC per OCI Project.
+  * i.	Ensuring their OCI Project incorporates and aligns with the OCI Values;
+  * ii.	Accepting, maintaining and advancing their OCI Project;
+    * 1.	The OCI Specification TDC will look to agree on a standard set of container actions (e.g. start, exec, pause) as well as runtime environment associated with the container runtime;
+  * iii.	The OCI certification TDC will creating and maintaining test cases that shall serve as the testing functions for achieving certification as an OCI Certified Solution.
+  * iv.	Engaging end users for feedback or input on their OCI Project, including, but not limited to, usability;
+  * v.	Ensuring their OCI Project follows and adheres to the OCI IP Policy;
+  * vi.	Approving releases of their OCI Project;
   * vii.	Creating, maintaining and following governance guidelines for the TDC, including:
     * 1.	the establishment of roles (e.g. Maintainer, Contributor) and each role’s responsibilities,
     * 2.	the process or requirements to take on a role in the TDC (e.g. how to become a Contributor, or how to become a Maintainer),
     * 3.	the process by which participants in the TDC may give up or be revoked of their roles (e.g. how to remove Maintainers);
     * 4.	the rules for decision making in the TDC; and
     * 5.	any workflow or processes participants are expected to follow in making or merging contributions.
-  * viii.	Attempting to harmonize the OCI Specifications with other proposed standards, including, but not limited to, the appc specification;
-  * ix.	Ensuring that the scope of technologies promulgated and proposed as standard elements of OCI Projects are those that are sufficiently widespread and sufficiently mature and stable so as to warrant establishment as a standard;
+  * viii.	Attempting to harmonize their OCI Project with other proposed standards, including, but not limited to, the appc specification;
+  * ix.	Ensuring that the scope of technologies promulgated and proposed as standard elements of their OCI Project are those that are sufficiently widespread and sufficiently mature and stable so as to warrant establishment as a standard;
   * x.	Referring any issues to the Technical Oversight Board that deal with failure to follow established technical governance, impact multiple OCI Projects, or conflicts that cannot be resolved within the TDC.
-* c.	The maintainers and contributors shall set the technical direction of the OCI Projects, with minimal interference by the Technical Oversight Board.
+* c.	The maintainers and contributors shall set the technical direction of their OCI Project, with minimal interference by the Technical Oversight Board.
 * d.	The TDC will only accept influence through contribution. The primary means for any organization to influence the technical direction of the OCI Projects is via contribution or service as maintainers. OCI Members specifically disclaim any right to influence technical direction either on the basis of their financial contributions or their existence as OCI Members.
-* e.	The initial leadership of the TDC shall be Michael Crosby (chief maintainer, Docker, @crosbymichael), Rohit Jnagal (google,@rgnagal), Victor Marmol (google, @vmarmol), Mrunal Patel (redhat, @mrunalp), Alexandr Morozov (docker, @LK4D4), Daniel Minh (@dqminh), Tianon Gravi (@tianon), Vincent Batts (redhat, @vbatts), Brandon Philipps (CoreOS, @philips)
+* e.	The initial leadership of all TDCs shall be Michael Crosby (chief maintainer, Docker, @crosbymichael), Rohit Jnagal (google,@rgnagal), Victor Marmol (google, @vmarmol), Mrunal Patel (redhat, @mrunalp), Alexandr Morozov (docker, @LK4D4), Daniel Minh (@dqminh), Tianon Gravi (@tianon), Vincent Batts (redhat, @vbatts), Brandon Philipps (CoreOS, @philips)
 
 **6.	Technical Oversight Board (TOB)**
 
-* a.	The TOB is responsible for managing conflicts and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects.
+* a.	The TOB is responsible for managing conflicts and any cross-project or high-level issues that cannot be resolved by the TDCs.
 * b.	The TOB shall be composed of individuals elected for their expertise and contribution to the advancement of container technologies.  Anyone may be elected to the TOB, regardless of whether the individual is an OCI Member or OCI TDC participant. It is intended that TOB members shall be technical experts that are considered thought leaders in the ecosystem. An elected TOB member is elected as an individual and not as a representative of their employer.  TOB members may not designate alternative representatives.
 * c.	TOB members shall be split into two groups, serving for a term of two years on a staggered basis, where one group is elected each year. The initial TOB will have four (4) TOB members who will only serve for a term of one year and three TOB members that serve for a term of two years.
 * d.	The initial TOB shall be established through a nomination and election process. The first group of four (4) TOB members shall be nominated and elected by the current TDC maintainers and serve for a period of one (1) year.  The second group of three (3) TOB members shall be nominated and elected by the OCI Members and serve for a period of two (2) years.
 * e.	Initial elections of TOB members shall be done using the Condorcet method through the Cornell online service (http://civs.cs.cornell.edu/).  The TOB may change the methodology or service used in future elections via a two-thirds approval vote of the then-serving TOB.
 * f.	The TOB shall meet on an as-needed basis, in a timely manner after issues are directed to the TOB from the TDC.  TOB meetings may be held in-person or via electronic conferencing.
-* g.	Issues referred to the TOB should be given appropriate time for TOB members to evaluate the issue, the positions of the TDC, the positions of users and sufficient time to explore compromise solutions.  It is expected an appropriate review should require at least a two-week review period, though it is recognized some time-critical circumstances may call for a shorter review (e.g. security issues).
+* g.	Issues referred to the TOB should be given appropriate time for TOB members to evaluate the issue, the positions of TDCs, the positions of users and sufficient time to explore compromise solutions.  It is expected an appropriate review should require at least a two-week review period, though it is recognized some time-critical circumstances may call for a shorter review (e.g. security issues).
 * h.	Quorum for holding meetings shall be established when a simple majority of TOB members are present.
 * i.	Votes at TOB meetings shall pass with a simple majority vote, on a one vote per TOB member basis.
 * j.	At any time a vote may be conducted via email or electronic voting service and pass with a simple majority of all TOB members voting in favor.
 * k.	Any issues that cannot be resolved by the TOB shall be referred to The Linux Foundation Executive Director for resolution with The Linux Foundation Board of Directors.
 
-**7.	OCI Values. The TDC and TOB shall reflect and adhere to the following values for OCI Projects:**
+**7.	OCI Values. The TDCs and TOB shall reflect and adhere to the following values for OCI Projects:**
 
 * a.	Composable. All tools for downloading, installing, and running containers should be well integrated, but independent and composable.   A container runtime should not be bound to clients, to higher-level frameworks, etc.
 * b.	Portable. The runtime standard should be usable across different hardware, operating systems, and cloud environments.
@@ -106,7 +106,7 @@ The OCI maintains a collection of projects around open containers.  For example,
 **10.	Budget**
 
 * a.	The Trademark Board shall approve an annual budget and never commit to spend in excess of funds raised. The budget shall be consistent with the non-profit mission of The Linux Foundation.
-* b.	The OCI Budget shall include funds for a part-time program manager, or at the OCI’s discretion, an Executive Director, to assist OCI with project management, organizing meetings and assisting in driving initiatives of the Trademark Board, TDC or TOB.
+* b.	The OCI Budget shall include funds for a part-time program manager, or at the OCI’s discretion, an Executive Director, to assist OCI with project management, organizing meetings and assisting in driving initiatives of the Trademark Board, TDCs or TOB.
 * c.	The Linux Foundation shall provide regular reports of spend levels against the budget.
 * d.	The Linux Foundation shall have custody of and final authority over the usage of any fees, funds and other cash receipts.
 
@@ -114,7 +114,7 @@ The OCI maintains a collection of projects around open containers.  For example,
 
 The OCI shall:
 
-* a.	demonstrate plans and the means to coordinate with the open source project’s developer community, including on topics such as branding, logos, and other collateral that will represent the community;
+* a.	demonstrate plans and the means to coordinate with TDCs, including on topics such as branding, logos, and other collateral that will represent the community;
 * b.	engage in a professional manner consistent with maintaining a cohesive community, while also maintaining the goodwill and esteem of The Linux Foundation in the open source software community;
 * c.	respect the rights of all trademark owners, including any branding and usage guidelines;
 * d.	engage The Linux Foundation for all OCI press and analyst relations activities;
