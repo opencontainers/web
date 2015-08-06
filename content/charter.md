@@ -47,23 +47,22 @@ The OCI maintains a collection of projects around open containers.  For example,
 
 * a.	The OCI has established a technical project for an open source Technical Developer Community. The TDC shall be open to any developer, end user or subject matter expert that chooses to participate in the activities of OCI, regardless of whether the participant is employed by an OCI Member company.
 * b.	The TDC has an established scope of work focused on:
-  * i.	Creating and maintaining formal specifications (“OCI Specifications”) for container image formats and runtime, which will allow a compliant container to be portable across all major, compliant operating systems and platforms without artificial technical barriers;
-  * ii.	Ensuring OCI Projects incorporate and align to the OCI Values;
-  * iii.	Accepting, maintaining and advancing OCI Projects;
+  * i.	Ensuring OCI Projects incorporate and align to the OCI Values;
+  * ii.	Accepting, maintaining and advancing OCI Projects;
     * 1.	The TDC will look to agree on a standard set of container actions (e.g. start, exec, pause) as well as runtime environment associated with the container runtime;
-  * iv.	Creating and maintaining test cases that shall serve as the testing functions for achieving certification as an OCI Certified Solution.
-  * v.	Engaging end users for feedback or input on OCI Projects, including, but not limited to, usability;
-  * vi.	Ensuring all OCI Projects follow and adhere to the OCI IP Policy;
-  * vii.	Approving releases of OCI Projects;
-  * viii.	Creating, maintaining and following governance guidelines for the TDC, including:
+  * iii.	Creating and maintaining test cases that shall serve as the testing functions for achieving certification as an OCI Certified Solution.
+  * iv.	Engaging end users for feedback or input on OCI Projects, including, but not limited to, usability;
+  * v.	Ensuring all OCI Projects follow and adhere to the OCI IP Policy;
+  * vi.	Approving releases of OCI Projects;
+  * vii.	Creating, maintaining and following governance guidelines for the TDC, including:
     * 1.	the establishment of roles (e.g. Maintainer, Contributor) and each role’s responsibilities,
     * 2.	the process or requirements to take on a role in the TDC (e.g. how to become a Contributor, or how to become a Maintainer),
     * 3.	the process by which participants in the TDC may give up or be revoked of their roles (e.g. how to remove Maintainers);
     * 4.	the rules for decision making in the TDC; and
     * 5.	any workflow or processes participants are expected to follow in making or merging contributions.
-  * ix.	Attempting to harmonize the OCI Specifications with other proposed standards, including, but not limited to, the appc specification;
-  * x.	Ensuring that the scope of technologies promulgated and proposed as standard elements of OCI Projects are those that are sufficiently widespread and sufficiently mature and stable so as to warrant establishment as a standard;
-  * xi.	Referring any issues to the Technical Oversight Board that deal with failure to follow established technical governance, impact multiple OCI Projects, or conflicts that cannot be resolved within the TDC.
+  * viii.	Attempting to harmonize the OCI Specifications with other proposed standards, including, but not limited to, the appc specification;
+  * ix.	Ensuring that the scope of technologies promulgated and proposed as standard elements of OCI Projects are those that are sufficiently widespread and sufficiently mature and stable so as to warrant establishment as a standard;
+  * x.	Referring any issues to the Technical Oversight Board that deal with failure to follow established technical governance, impact multiple OCI Projects, or conflicts that cannot be resolved within the TDC.
 * c.	The maintainers and contributors shall set the technical direction of the OCI Projects, with minimal interference by the Technical Oversight Board.
 * d.	The TDC will only accept influence through contribution. The primary means for any organization to influence the technical direction of the OCI Projects is via contribution or service as maintainers. OCI Members specifically disclaim any right to influence technical direction either on the basis of their financial contributions or their existence as OCI Members.
 * e.	The initial leadership of the TDC shall be Michael Crosby (chief maintainer, Docker, @crosbymichael), Rohit Jnagal (google,@rgnagal), Victor Marmol (google, @vmarmol), Mrunal Patel (redhat, @mrunalp), Alexandr Morozov (docker, @LK4D4), Daniel Minh (@dqminh), Tianon Gravi (@tianon), Vincent Batts (redhat, @vbatts), Brandon Philipps (CoreOS, @philips)
