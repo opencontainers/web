@@ -108,7 +108,8 @@ The Open Container Initiative does not seek to be a marketing organization, defi
 * d.	The Linux Foundation shall have custody of and final authority over the usage of any fees, funds and other cash receipts.
 
 **10.	 Linux Foundation General Rules and Operations.
-The OCI shall:**
+
+The OCI shall:
 
 * a.	demonstrate plans and the means to coordinate with the open source project’s developer community, including on topics such as branding, logos, and other collateral that will represent the community;
 * b.	engage in a professional manner consistent with maintaining a cohesive community, while also maintaining the goodwill and esteem of The Linux Foundation in the open source software community;
