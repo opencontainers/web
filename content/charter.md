@@ -41,7 +41,7 @@ The Open Container Initiative does not seek to be a marketing organization, defi
 
 **4.	Technical Developer Community (“TDC”)**
 
-* a.	The OCI has established a technical project for an open source Technical Developer Community. The TDC shall be open to any developer, end user or subject matter expert that chooses to participate in the activities of OCI, regardless of whether the participant is employed by an OCI Member company.
+* a.	The OCI has established a technical project for an open source Technical Developer Community. Any developer, end user or subject matter expert that chooses to participate in the activities of OCI may be inducted as a TDC Member, regardless of whether the participant is employed by an OCI Member company.
 * b.	The TDC has an established scope of work focused on:
   * i.	Creating and maintaining formal specifications (“OCI Specifications”) for container image formats and runtime, which will allow a compliant container to be portable across all major, compliant operating systems and platforms without artificial technical barriers;
   * ii.	Ensuring OCI Specifications incorporate and align to the OCI Values;
@@ -52,15 +52,15 @@ The Open Container Initiative does not seek to be a marketing organization, defi
   * vi.	Ensuring all OCI Specification and OCI Projects follow and adhere to the OCI IP Policy;
   * vii.	Approving releases of OCI Specifications or OCI Projects;
   * viii.	Creating, maintaining and following governance guidelines for the TDC, including:
-    * 1.	the establishment of roles (e.g. Maintainer, Contributor) and each role’s responsibilities,
-    * 2.	the process or requirements to take on a role in the TDC (e.g. how to become a Contributor, or how to become a Maintainer),
-    * 3.	the process by which participants in the TDC may give up or be revoked of their roles (e.g. how to remove Maintainers);
+    * 1.	the establishment of TDC Roles (e.g. Maintainer, Contributor) and each role’s responsibilities to provide structure within the TDC Membership,
+    * 2.	the process or requirements to become a TDC Member and take on a TDC Role (e.g. how to become a Contributor, or how to become a Maintainer),
+    * 3.	the process by which TDC Members may give up or be revoked of their roles or membership (e.g. how to remove Maintainers);
     * 4.	the rules for decision making in the TDC; and
     * 5.	any workflow or processes participants are expected to follow in making or merging contributions.
   * ix.	Attempting to harmonize the OCI Specifications with other proposed standards, including, but not limited to, the appc specification;
   * x.	Ensuring that the scope of technologies promulgated and proposed as standard elements of OCI Specifications of OCI Projects are those that are sufficiently widespread and sufficiently mature and stable so as to warrant establishment as a standard;
   * xi.	Referring any issues to the Technical Oversight Board that deal with failure to follow established technical governance, impact multiple OCI Projects or Specifications, or conflicts that cannot be resolved within the TDC.
-* c.	The maintainers and contributors shall set the technical direction of the OCI Projects, with minimal interference by the Technical Oversight Board.
+* c.	The TDC shall set the technical direction of the OCI Projects, with minimal interference by the Technical Oversight Board.
 * d.	The TDC will only accept influence through contribution. The primary means for any organization to influence the technical direction of the OCI Projects is via contribution or service as maintainers. OCI Members specifically disclaim any right to influence technical direction either on the basis of their financial contributions or their existence as OCI Members.
 * e.	The initial leadership of the TDC shall be Michael Crosby (chief maintainer, Docker, @crosbymichael), Rohit Jnagal (google,@rgnagal), Victor Marmol (google, @vmarmol), Mrunal Patel (redhat, @mrunalp), Alexandr Morozov (docker, @LK4D4), Daniel Minh (@dqminh), Tianon Gravi (@tianon), Vincent Batts (redhat, @vbatts), Brandon Philipps (CoreOS, @philips)
 
@@ -69,7 +69,7 @@ The Open Container Initiative does not seek to be a marketing organization, defi
 * a.	The TOB is responsible for managing conflicts and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Specifications or OCI Projects.
 * b.	The TOB shall be composed of individuals elected for their expertise and contribution to the advancement of container technologies.  Anyone may be elected to the TOB, regardless of whether the individual is an OCI Member or OCI TDC participant. It is intended that TOB members shall be technical experts that are considered thought leaders in the ecosystem. An elected TOB member is elected as an individual and not as a representative of their employer.  TOB members may not designate alternative representatives.
 * c.	TOB members shall be split into two groups, serving for a term of two years on a staggered basis, where one group is elected each year. The initial TOB will have four (4) TOB members who will only serve for a term of one year and three TOB members that serve for a term of two years.
-* d.	The initial TOB shall be established through a nomination and election process. The first group of four (4) TOB members shall be nominated and elected by the current TDC maintainers and serve for a period of one (1) year.  The second group of three (3) TOB members shall be nominated and elected by the OCI Members and serve for a period of two (2) years.
+* d.	The initial TOB shall be established through a nomination and election process. The first group of four (4) TOB members shall be nominated and elected by the current TDC Members and serve for a period of one (1) year.  The second group of three (3) TOB members shall be nominated and elected by the OCI Members and serve for a period of two (2) years.
 * e.	Initial elections of TOB members shall be done using the Condorcet method through the Cornell online service (http://civs.cs.cornell.edu/).  The TOB may change the methodology or service used in future elections via a two-thirds approval vote of the then-serving TOB.
 * f.	The TOB shall meet on an as-needed basis, in a timely manner after issues are directed to the TOB from the TDC.  TOB meetings may be held in-person or via electronic conferencing.
 * g.	Issues referred to the TOB should be given appropriate time for TOB members to evaluate the issue, the positions of the TDC, the positions of users and sufficient time to explore compromise solutions.  It is expected an appropriate review should require at least a two-week review period, though it is recognized some time-critical circumstances may call for a shorter review (e.g. security issues).
