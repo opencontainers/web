@@ -62,7 +62,7 @@ The Open Container Initiative does not seek to be a marketing organization, defi
   * xi.	Referring any issues to the Technical Oversight Board that deal with failure to follow established technical governance, impact multiple OCI Projects or Specifications, or conflicts that cannot be resolved within the TDC.
 * c.	The maintainers and contributors shall set the technical direction of the OCI Projects, with minimal interference by the Technical Oversight Board.
 * d.	The TDC will only accept influence through contribution. The primary means for any organization to influence the technical direction of the OCI Projects is via contribution or service as maintainers. OCI Members specifically disclaim any right to influence technical direction either on the basis of their financial contributions or their existence as OCI Members.
-* e.	The initial leadership of the TDC shall be Michael Crosby (chief maintainer, Docker, @crosbymichael), Rohit Jnagal (google,@rgnagal), Victor Marmol (google, @vmarmol), Mrunal Patel (redhat, @mrunalp), Alexandr Morozov (docker, @LK4D4), Daniel Minh (@dqminh), Tianon Gravi (@tianon), Vincent Batts (redhat, @vbatts), Brandon Philipps (CoreOS, @philips)
+* e.	The initial leadership of the TDC shall be Michael Crosby (chief maintainer, Docker, @crosbymichael), Rohit Jnagal (google,@rgnagal), Victor Marmol (google, @vmarmol), Mrunal Patel (redhat, @mrunalp), Alexander Morozov (docker, @LK4D4), Daniel Minh (@dqminh), Tianon Gravi (@tianon), Vincent Batts (redhat, @vbatts), Brandon Philipps (CoreOS, @philips)
 
 **5.	Technical Oversight Board (TOB)**
 
