@@ -36,7 +36,7 @@ Docker is donating both a draft specification for the base format and runtime an
 
 **7. Who will be the initial technical leadership?**
 
-The initial technical leadership will be the current maintainers of libcontainer, a group that comprises individuals from Docker, Red Hat, and Google, as well as two independent developers. They will be joined in this effort by two prominent appc maintainers, making this initial list : Michael Crosby (Docker, @crosbymichael), Rohit Jnagal (Google,@rgnagal), Victor Marmol (Google, @vmarmol), Mrunal Patel (Red Hat, @mrunalp), Alexandr Morozov (Docker, @LK4D4), Daniel Minh (independent, @dqminh), Tianon Gravi (independent, @tianon), Brandon Philips (CoreOS @philips), and Vincent Batts (Red Hat @vbatts).  Of course, we look forward to growing both the contributor and maintainer list in the weeks and years to come.
+The initial technical leadership will be the current maintainers of libcontainer, a group that comprises individuals from Docker, Red Hat, and Google, as well as two independent developers. They will be joined in this effort by two prominent appc maintainers, making this initial list : Michael Crosby (Docker, @crosbymichael), Rohit Jnagal (Google,@rgnagal), Victor Marmol (Google, @vmarmol), Mrunal Patel (Red Hat, @mrunalp), Alexander Morozov (Docker, @LK4D4), Daniel Minh (independent, @dqminh), Tianon Gravi (independent, @tianon), Brandon Philips (CoreOS @philips), and Vincent Batts (Red Hat @vbatts).  Of course, we look forward to growing both the contributor and maintainer list in the weeks and years to come.
 
 **8. What are the commitments of all founding signatories of the OCI?**
 
