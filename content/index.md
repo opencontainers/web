@@ -45,6 +45,7 @@ The following organizations are sponsors of the Open Container Initiative:
 * Mesosphere
 * Midokura
 * Microsoft
+* Nexenta
 * Nutanix
 * Oracle
 * Rancher
